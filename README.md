@@ -136,9 +136,7 @@ done
 ```
 
 In both cases the generation of the keys is segmented in 32 jobs that run in
-parallel, each of which produces 1024 vulnerable keys. The main difference
-between the two is the estimated and actual time required. 1024 2048 bit keys
-are generated in ~7 minutes and 1024 4096 bit keys in ~30 minutes.
+parallel, each of which produces 1024 vulnerable keys. The main difference between the two is the estimated and actual time required. The generation process for each job took ~7 minutes to generate 1024 keys with 2048 bit length, and ~30 minutes to generate 1024 keys with 4096 bit length.
 
 All the jobs run on
 [Intel Xeon E5-2630 v4](https://ark.intel.com/content/www/us/en/ark/products/92981/intel-xeon-processor-e5-2630-v4-25m-cache-2-20-ghz.html)
