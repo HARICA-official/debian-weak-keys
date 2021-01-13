@@ -240,8 +240,8 @@ changes as can be seen in the diff below:
 | lenny | openssl_0.9.8g-8 | i386 | noreadrnd | 2048 | `lenny/openssl_0.9.8g-8/i386/noreadrnd/rsa-2048` | 609363 |
 | lenny | openssl_0.9.8g-8 | i386 | noreadrnd | 4096 | `lenny/openssl_0.9.8g-8/i386/noreadrnd/rsa-4096` | 609377 |
 
-The files created with the `etch` release are not included in the tarball
-because they are duplicates of the ones created with the `lenny` release and
-more specifically of the `rnd` and `noreadrnd` variants.
+The files created with the `etch` release are not included because they are
+duplicates of the ones created with the `lenny` release and more specifically of
+the `rnd` and `noreadrnd` variants.
 
 Kudos to pkoro.
