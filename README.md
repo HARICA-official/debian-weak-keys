@@ -1,6 +1,6 @@
 # Goal
 
-Generation of 2048 and 4096 bit RSA Debian weak keys on x86 and x86_64 for
+Generation of 2048, 3072 and 4096 bit RSA Debian weak keys on x86 and x86_64 for
 the 3 cases of `~/.rnd` (rnd, noreadrnd, nornd). The incentive was
 [this thread from the `servercert-wg` mailing list of the CA/B Forum](https://cabforum.org/pipermail/servercert-wg/2020-April/001830.html)
 
